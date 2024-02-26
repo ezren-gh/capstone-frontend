@@ -8,4 +8,4 @@ This repository only contains frontend code, and requires an active backend runn
 
 1. Clone the repository to your local machine.
 2. Build the application with `docker build -t <repository_name> .`
-3. Run the frontend server and forward ports using `docker run --rm --gpu all -p 8501:8501`
+3. Run the frontend server and forward ports using `docker run --rm -p 8501:8501 <image_name>`
